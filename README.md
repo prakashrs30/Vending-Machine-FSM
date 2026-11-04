@@ -62,7 +62,7 @@ A complete, production-grade **Finite State Machine with Datapath (FSMD)** imple
 
 ---
 
-<img width="500" alt="Boolean control pins" src="https://github.com/user-attachments/assets/a31bc16c-4930-4f3f-b3bd-779cf270d32c" />
+<img width="800" alt="Boolean control pins" src="https://github.com/user-attachments/assets/a31bc16c-4930-4f3f-b3bd-779cf270d32c" />
 
 ---
 ## Waveform
