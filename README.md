@@ -95,13 +95,6 @@ The testbench (`vending_tb.v`) verifies all corner cases in cycle-accurate simul
 4. **Scenario 4 (Motor Jam Watchdog Protection):** Customer buys Slot 3 (Chips). Motor 3 turns ON, but the item gets physically stuck (sensor stays low). After 4 cycles, the watchdog trips, sounds the jam alarm, and safely refunds the customer's ₹50.
 
 ---
-
-## 🛠️ How to Build and Run in Vivado
-
-1. **Create Project:**  
-   Open Vivado $\rightarrow$ *Create Project* named `vending_machine` (avoid spaces in path!). Target Part: **`xc7s50csga324-1`**.
-2. **Add Sources:**  
-   Add `vending.v`, `timer100Mto1.v`, `seven_seg_display.v`, and `vending_top.v` under Design Sources.
 3. **Add Constraints:**  
    Add `boolean_vending.xdc` under Constraints.
 4. **Synthesize & Implement:**  
