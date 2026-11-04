@@ -1,4 +1,4 @@
-# 🛒 Smart 7-Item Vending Machine Controller in Verilog (FPGA)
+#  Smart 7-Item Vending Machine Controller in Verilog (FPGA)
 
 A complete, production-grade **Finite State Machine with Datapath (FSMD)** implementing a smart, multi-item vending machine controller in synthesizable Verilog HDL. Designed, synthesized, and verified on the **AMD / RealDigital Boolean Board (Spartan-7 XC7S50-CSGA324)**.
 
