@@ -31,32 +31,6 @@ A complete, production-grade **Finite State Machine with Datapath (FSMD)** imple
 
 ---
 
-## 🏛️ System Architecture
-
-### Finite State Machine (FSM) Diagram
-
-```mermaid
-stateDiagram-v2
-    [*] --> S_IDLE
-    
-    S_IDLE --> S_CONFIG : admin_mode == 1 (Owner key turned)
-    S_CONFIG --> S_IDLE : admin_mode == 0 (Owner locks door)
-    
-    S_IDLE --> S_ACCEPT : money_valid pulse
-    S_ACCEPT --> S_ACCEPT : Additional coins inserted (update balance)
-    
-    S_ACCEPT --> S_REFUND : cancel_btn pressed OR Inactivity Timeout (12s)
-    S_ACCEPT --> S_DISPENSE : select_item pressed AND balance >= price_table[item]
-    
-    S_DISPENSE --> S_CHANGE : drop_sensor == 1 (Item fell into chute)
-    S_DISPENSE --> S_JAM_ERROR : Watchdog expired (4s) without drop sensor
-    
-    S_JAM_ERROR --> S_REFUND : Sound jam alarm, abort and refund 100% money
-    
-    S_CHANGE --> S_IDLE : Dispense change (balance - price), return to idle
-    S_REFUND --> S_IDLE : Return full balance, return to idle
-```
-
 ### State Encoding Table
 
 | State Name | Binary Code | Description |
