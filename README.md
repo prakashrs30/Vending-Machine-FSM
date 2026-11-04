@@ -68,7 +68,8 @@ A complete, production-grade **Finite State Machine with Datapath (FSMD)** imple
 ## Waveform
 
 
-<img width="1000" alt="Waveform" src="https://github.com/user-attachments/assets/a9900899-d910-4217-b51e-d33809b45583" />
+<img width="1000 alt="Vending machine waveform" src="https://github.com/user-attachments/assets/fb40a455-8dfe-4b91-b323-48b71d1b1fc5" />
+
 
 ## 🎮 Hardware Pin Mapping (AMD Boolean Board)
 
