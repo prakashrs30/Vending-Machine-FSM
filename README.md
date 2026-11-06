@@ -68,8 +68,8 @@ A complete, production-grade **Finite State Machine with Datapath (FSMD)** imple
 ## Waveform
 
 
-<img width="700" alt="Vending simulation 1" src="https://github.com/user-attachments/assets/9d1e963d-caf3-49f8-a883-abe154d40399" />
-<img width="700" alt="Vending simulation 2" src="https://github.com/user-attachments/assets/879c119d-b682-406c-befc-504638bfb081" />
+<img width="800" alt="Vending simulation 1" src="https://github.com/user-attachments/assets/9d1e963d-caf3-49f8-a883-abe154d40399" />
+<img width="800" alt="Vending simulation 2" src="https://github.com/user-attachments/assets/879c119d-b682-406c-befc-504638bfb081" />
 
 
 
